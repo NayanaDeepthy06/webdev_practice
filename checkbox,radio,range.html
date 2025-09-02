@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML(level_3)input element</title>
+</head>
+<body>
+    <form action="/server">
+    <input type="checkbox"id="age"name="age" checked/>
+    <label for="age">iam 18+ </label>
+    
+    <!-- here we need to select only one fruit so we are using radio button-->
+     <div>
+        <input type="radio" name="fruit"id="apple"value="apple"/>
+        <label for="apple">apple</label>
+        <input type="radio" name="fruit"id="mango"value="mango"/>
+        <label for="mango">mango</label>
+        <input type="radio" name="fruit"id="banana"value="banana"/>
+        <label for="banana">banana</label>
+        
+     </div>
+     <br>
+     <div>
+        choose your subjects :
+        <input type="checkbox" name="math"id="sub"value="math"/>
+        <label for="math">mathematics</label>
+        <input type="checkbox" name="english"id="sub"value="eng"/>
+        <label for="english">english</label>
+        <input type="checkbox" name="physics"id="sub"value="phy"/>
+        <label for="physics">physics</label>
+     </div>
+     <!-- here we can select multiple options so we are using checkbox-->
+     <br>
+     <div>
+        Choose your profession 
+        <select name="profession"id="profession">
+            <option>select an option: </option>
+            <option val="stu">studnet</option>
+            <option val="devopeng">devops enginner</option>
+            <option val="sfdev" selected> software developer</option><!--to pre select the option -->
+        </select>
+     </div>
+     <!-- now we will see range attribute -->
+      <label for="volume"> select volume in range:</label>
+      <input type="range" min="0"max="150"name="vol" step="15" val="75">
+     <br>
+     <label for="feedback">please give your valuble feedback here:</label>
+     <textarea id="feedback" name="feedback" placeholder="write your feedback here"></textarea>
+     <button>Submit</button>
+
+</form>
+    
+</body>
+</html>

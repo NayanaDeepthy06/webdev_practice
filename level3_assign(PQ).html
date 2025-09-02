@@ -1,0 +1,105 @@
+<table border="black">
+    <caption>Student Information</caption>
+    <tr>
+        <th rowspan="6">Info</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Adress</th>
+    </tr>
+    <tr>
+    <th>City</th>
+    <th>House</th>
+    </tr>
+    <tr>
+    <td>A</td>
+    <td>Delhi</td>
+    <td>1</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>Mumbai</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>C</td>
+        <td>Kolkata</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>D</td>
+        <td>Pune</td>
+        <td>4</td>
+    </tr>
+</table>
+<hr>
+<!-- this is 1st question -->
+ <br>
+<form action="server">
+<label for="Name">Name:</label>
+<input type="text"id="Name"name="Name">
+<br> </br>      
+<div>
+    Sex:
+    <label for="Male">Male</label>
+    <input type="radio"id="Male"name="sex"value="M">
+    <label for="Female">Female</label>
+    <input type="radio"id="Female"name="sex"value="F">
+
+</div>
+<br>
+<label for="Country">Country:</label>
+<select name="Country"id="Country">
+    <option>Select an option </option>
+    <option value="Ind">India</option>
+    <option value="Nep">Nepal</option>
+    <option value="Cand">Canada</option>
+    <option value="Us">Usa</option>
+</select>
+<br> </br>  
+<label for="Message">Message:</label>
+<br>
+<textarea id="Message"name="Message"></textarea>
+<br>
+<label for="subscribe">Subscribe?:</label>
+<input type="checkbox"id="subscribe"name="subscribe">
+<br>
+<button type="submit"> Submit </button>
+
+
+
+</form>
+<hr>
+<!-- this is second question -->
+ <!-- this is third question feedback form -->
+  <h2>Feedback form</h2>
+<form action="serevr">
+    <label for="name">Name:</label>
+    <input type="text"id="name"Name="name"placeholder="write your name">
+    <br> </br>
+    <label for="mailid">email:</label>
+    <input type="email"id="mailid"Name="mailid"placeholder="write your email">
+    <br> </br>
+    <label for="message">Message:</label>
+    <br>
+    <textarea id="message"name="message"></textarea>
+    <br> </br>
+    <label for="rating">Rate us on 5:</label>
+        <br> 
+    <label for="1">1</label>
+    <input type="radio"id="1"name="rating"value="1">
+    <br>
+    <label for="2">2</label>
+    <input type="radio"id="2"name="rating"value="2">
+    <br>
+    <label for="3">3</label>
+    <input type="radio"id="3"name="rating"value="3">
+    <br>
+    <label for="4">4</label>
+    <input type="radio"id="4"name="rating"value="4">
+    <br>
+    <label for="5">5</label>
+    <input type="radio"id="5"name="rating"value="5">
+
+<br> </br>
+<br> </br>
+    <button>Send your message!</button>
+</form>  
